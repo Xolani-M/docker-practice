@@ -14,7 +14,6 @@ This is a simple Node.js web application built with Express, intended to demonst
 - [Run Docker Container](#run-docker-container)
 - [Endpoints](#endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 
 
 
