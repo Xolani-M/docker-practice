@@ -1,6 +1,8 @@
 # INSTRUCTIONS TO DEPLOYING THE PROGRAM WITHOUT DOCKER
 
-- Start with an os
-- Install Node
-- Copy our app files
-- Run node app.js
+- install node
+- npm init
+- npm install
+- npm install express
+- copy our app files
+- run node app.js
