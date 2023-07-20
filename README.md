@@ -66,6 +66,6 @@ Access the application in your web browser at http://localhost:3000.
 
 To stop the container, press Ctrl + C in the terminal.
 
-Contributing <a name="contributing"></a>
+## Contributing <a name="contributing"></a>
 
 Contributions are welcome! If you find any issues with the Docker demo or have ideas for improvements, please feel free to open an issue or submit a pull request.
