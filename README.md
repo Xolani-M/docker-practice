@@ -4,6 +4,7 @@ This is a simple Node.js web application built with Express, intended to demonst
 
 
 
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -17,15 +18,22 @@ This is a simple Node.js web application built with Express, intended to demonst
 
 
 
+
+
 ## Introduction <a name="introduction"></a>
 
 docker-practice is a basic Node.js web application that showcases how to containerize a Node.js application using Docker. It provides a simple API built with Express, and the Dockerfile is included to help you understand the steps required to create a Docker image for the application.
+
+
+
 
 ## Requirements <a name="requirements"></a>
 
 Before running this Docker demo, ensure you have the following software installed:
 
 - Docker (Docker Desktop for Windows or macOS, or Docker Engine for Linux)
+
+
 
 
 ## Docker Installation <a name="docker-installation"></a>
@@ -35,6 +43,9 @@ Please refer to the official Docker documentation to install Docker on your oper
 - [Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/) (For Windows users)
 - [Docker Desktop for macOS](https://docs.docker.com/desktop/install/mac-install/) (For macOS users)
 - [Docker Engine for Linux](https://docs.docker.com/desktop/install/linux-install/) (For Linux users)
+
+
+
 
 
 ## Build Docker Image <a name="build-docker-image"></a>
