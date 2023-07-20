@@ -14,6 +14,7 @@ This is a simple Node.js web application built with Express, intended to demonst
 - [Run Docker Container](#run-docker-container)
 - [Endpoints](#endpoints)
 - [Contributing](#contributing)
+- [Steps To Run The Program](#runimage)
 
 
 
@@ -64,6 +65,21 @@ cd docker-practice
 Access the application in your web browser at http://localhost:3000.
 
 To stop the container, press Ctrl + C in the terminal.
+
+
+
+
+## Steps To Run The Program <a name="runimage"></a>
+
+1. # Pull the Docker Image:
+    - docker pull xomvana022/docker-practice:2.0
+
+2. # Run the Docker Container:
+    - docker run -p 3000:3000 xomvana022/docker-practice:2.0
+
+
+
+
 
 ## Contributing <a name="contributing"></a>
 
