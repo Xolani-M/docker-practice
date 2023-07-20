@@ -58,7 +58,7 @@ cd docker-practice
     NOTE: Replace username/your-app:2.0 with the desired name and tag for your Docker image.
 
 
-Run Docker Container <a name="run-docker-container"></a>
+## Run Docker Container <a name="run-docker-container"></a>
 
 - To run the Docker container from the image, use the following command: docker run -p 3000:3000 username/your-app:2.0
 
