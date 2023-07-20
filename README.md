@@ -12,7 +12,6 @@ This is a simple Node.js web application built with Express, intended to demonst
 - [Docker Installation](#docker-installation)
 - [Build Docker Image](#build-docker-image)
 - [Run Docker Container](#run-docker-container)
-- [Endpoints](#endpoints)
 - [Steps To Run The Program](#runimage)
 - [Contributing](#contributing)
 
