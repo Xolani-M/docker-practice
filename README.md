@@ -73,7 +73,7 @@ Please refer to the official Docker documentation to install Docker on your oper
 
 # Tip:
       - To stop the container, press Ctrl + C in the terminal.
-
+      - Or docker stop username/your-app-name
 
 
 
