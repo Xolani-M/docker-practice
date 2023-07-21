@@ -1,4 +1,4 @@
-# Use Node.js 12 Slim Buster as the base image
+# Use Node12:-alpine as the base image
 FROM node:12-alpine
 
 # Set the working directory inside the container's filesystem
