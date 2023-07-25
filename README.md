@@ -12,8 +12,10 @@ This is a simple Node.js web application built with HTML, CSS, JavaScript, Docum
 - [Docker Installation](#docker-installation)
 - [Build Docker Image](#build-docker-image)
 - [Run Docker Container](#run-docker-container)
+- [Stop Docker Container](#stop-docker-container)
 - [Steps To Run The Program](#runimage)
 - [Contributing](#contributing)
+
 
 
 
@@ -71,9 +73,27 @@ Please refer to the official Docker documentation to install Docker on your oper
 
   Access the application in your web browser at http://localhost:3000.
 
-# Tip:
-      - To stop the container, press Ctrl + C in the terminal.
-      - Or docker stop username/your-app-name
+
+## Stop Docker Container <a name="stop-docker-container"></a>
+
+```bash
+docker ps
+```
+which will list the running images in this format
+| CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES |
+|---|---|---|---|---|---|---|
+|4e3gg4455235 | username/app:2.0 | "docker-entrypoint.s…" |  About a minute ago | Up 59 seconds |  0.0.0.0:3000->3000/tcp | wizardly_almeida
+
+then from there, you want to select the ID or name
+
+* Using IMAGE ID
+```bash
+docker stop 4e3gg4455235
+```
+* Using NAMES
+```bash
+docker stop wizardly_almeida
+```
 
 
 
