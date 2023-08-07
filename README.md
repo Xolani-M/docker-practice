@@ -66,7 +66,7 @@ cd docker-practice
 docker build -t username/your-app:2.0 .
 ```
 
-    #NOTE: 
+    # NOTE: 
           Replace username/your-app:2.0 with the desired name and tag for your Docker image.
 
 
@@ -83,7 +83,7 @@ docker run -p 3000:3000 username/your-app:2.0
   Access the application in your web browser at http://localhost:3000.
 
   # NOTE:
-        When you run a Docker container with the ```bash docker run``` command, it starts the container in the foreground, and the terminal remains attached to the container process. In this case, you will not be able to execute docker stop directly from the same terminal where the container is running because the terminal is still busy with the container's process. Altinatively you can run the image on DETACHED mode, read further for more info.
+        When you run a Docker container with the docker run command, it starts the container in the foreground, and the terminal remains attached to the container process. In this case, you will not be able to execute docker stop directly from the same terminal where the container is running because the terminal is still busy with the container's process. Altinatively you can run the image on DETACHED mode, read further for more info.
 
 
 # Run on Detached Mode (Background) using the -d flag:
