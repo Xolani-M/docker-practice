@@ -94,7 +94,7 @@ docker run -p 3000:3000 username/your-app:2.0
 
     - On detached mode the container runs in the background, and the terminal is free to execute other commands.
     - The docker run command returns immediately with the container ID.
-    - You can still view the container's logs using the ```bash docker logs <CONTAINER_ID_or_NAME>``` command.
+    - You can still view the container's logs using the docker logs <CONTAINER_ID_or_NAME> command.
     - You can stop the container with docker stop <CONTAINER_ID_or_NAME> from the same terminal or any other terminal.
 
 
