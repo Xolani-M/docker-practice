@@ -92,10 +92,10 @@ docker run -p 3000:3000 username/your-app:2.0
 docker run -d -p 3000:3000 xomvana022/docker-practice:2.0
 ```
     
-    - On detached mode the container runs in the background, and the terminal is free to execute other commands.
-    - The docker run command returns immediately with the container ID.
-    - You can still view the container's logs using the `docker logs <CONTAINER_ID_or_NAME>` command.
-    - You can stop the container with `docker stop <CONTAINER_ID_or_NAME>` from the same terminal or any other terminal.
+    * On detached mode the container runs in the background, and the terminal is free to execute other commands.
+    * The docker run command returns immediately with the container ID.
+    * You can still view the container's logs using the `docker logs <CONTAINER_ID_or_NAME>` command.
+    * You can stop the container with `docker stop <CONTAINER_ID_or_NAME>` from the same terminal or any other terminal.
 
 
 
@@ -145,9 +145,9 @@ docker stop wizardly_almeida
     1. Using your physical machine.
     
     2. Or go to host:labs.play-with-docker.com
-    - Login/Sign In if you have a docker id or Sign Up if you do not have a docker id.
-    - click "Start".
-    - click "ADD NEW INSTANCE" to create a new virtual machine.
+    * Login/Sign In if you have a docker id or Sign Up if you do not have a docker id.
+    * click "Start".
+    * click "ADD NEW INSTANCE" to create a new virtual machine.
 
     #Tip: 
         - Maximize the terminal by clicking on it and pressing "alt" + "enter"
