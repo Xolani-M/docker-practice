@@ -90,7 +90,7 @@ docker run -p 3000:3000 username/your-app:2.0
 
 ```bash
 docker run -d -p 3000:3000 xomvana022/docker-practice:2.0
-
+```
     
     - On detached mode the container runs in the background, and the terminal is free to execute other commands.
     - The docker run command returns immediately with the container ID.
