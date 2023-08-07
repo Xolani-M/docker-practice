@@ -53,11 +53,18 @@ Please refer to the official Docker documentation to install Docker on your oper
 
 
 # Clone this repository to your local machine:
-- git clone https://github.com/Xolani-M/docker-practice.git 
-- cd docker-practice
+```bash
+git clone https://github.com/Xolani-M/docker-practice.git 
+```
+
+```bash
+cd docker-practice
+```
 
 # Build the Docker image using the provided Dockerfile:
-- docker build -t username/your-app:2.0 .
+```bash
+docker build -t username/your-app:2.0 .
+```
 
     #NOTE: 
           Replace username/your-app:2.0 with the desired name and tag for your Docker image.
@@ -69,12 +76,30 @@ Please refer to the official Docker documentation to install Docker on your oper
 ## Run Docker Container <a name="run-docker-container"></a>
 
 # To run the Docker container from the image, use the following command: 
-- docker run -p 3000:3000 username/your-app:2.0
+```bash
+docker run -p 3000:3000 username/your-app:2.0
+```
 
   Access the application in your web browser at http://localhost:3000.
 
+  # NOTE:
+        When you run a Docker container with the ```bash docker run``` command, it starts the container in the foreground, and the terminal remains attached to the container process. In this case, you will not be able to execute docker stop directly from the same terminal where the container is running because the terminal is still busy with the container's process. Altinatively you can run the image on DETACHED mode, read further for more info.
+
+
+# Run on Detached Mode (Background) using the -d flag:
+
+    ```bash
+    docker run -d -p 3000:3000 xomvana022/docker-practice:2.0
+    ```
+
+    - On detached mode the container runs in the background, and the terminal is free to execute other commands.
+    - The docker run command returns immediately with the container ID.
+    - You can still view the container's logs using the ```bash docker logs <CONTAINER_ID_or_NAME>``` command.
+    - You can stop the container with docker stop <CONTAINER_ID_or_NAME> from the same terminal or any other terminal.
+
 
 ## Stop Docker Container <a name="stop-docker-container"></a>
+
 
 ```bash
 docker ps
@@ -97,13 +122,19 @@ docker stop wizardly_almeida
 
 
 
+
 ## Steps To Run The Program <a name="runimage"></a>
 
 1. # Pull the Docker Image:
-    - docker pull xomvana022/docker-practice:2.0
+    ```bash
+    docker pull xomvana022/docker-practice:2.0
+    ```
 
 2. # Run the Docker Container:
-    - docker run -p 3000:3000 xomvana022/docker-practice:2.0
+    ```bash
+    docker run -p 3000:3000 xomvana022/docker-practice:2.0
+    ```
+
 
 
 

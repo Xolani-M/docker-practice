@@ -2,7 +2,7 @@
 FROM node:12-alpine
 
 # Set the working directory inside the container's filesystem
-WORKDIR /usr/src/app
+WORKDIR /user/app
 
 #Copy all of the application files to the working directory
 ADD . .
