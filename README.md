@@ -82,7 +82,7 @@ docker run -p 3000:3000 username/your-app:2.0
 
   Access the application in your web browser at http://localhost:3000.
 
-  # NOTE:
+  #NOTE:
         When you run a Docker container with the docker run command, it starts the container in the foreground, and the terminal remains attached to the container process. In this case, you will not be able to execute docker stop directly from the same terminal where the container is running because the terminal is still busy with the container's process. Altinatively you can run the image on DETACHED mode, read further for more info.
 
 
@@ -90,12 +90,14 @@ docker run -p 3000:3000 username/your-app:2.0
 
 ```bash
 docker run -d -p 3000:3000 xomvana022/docker-practice:2.0
-```
 
+    
     - On detached mode the container runs in the background, and the terminal is free to execute other commands.
     - The docker run command returns immediately with the container ID.
-    - You can still view the container's logs using the docker logs <CONTAINER_ID_or_NAME> command.
-    - You can stop the container with docker stop <CONTAINER_ID_or_NAME> from the same terminal or any other terminal.
+    - You can still view the container's logs using the `docker logs <CONTAINER_ID_or_NAME>` command.
+    - You can stop the container with `docker stop <CONTAINER_ID_or_NAME>` from the same terminal or any other terminal.
+
+
 
 
 ## Stop Docker Container <a name="stop-docker-container"></a>
