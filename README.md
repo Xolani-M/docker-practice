@@ -142,15 +142,16 @@ docker stop wizardly_almeida
 
 
 # You can do the previous steps by:
-    1. Using your physical machine.
-    
-    2. Or go to host:labs.play-with-docker.com
+1. Using your physical machine.
+
+2. Or go to [play-with-docker](https://labs.play-with-docker.com) to build and run a docker image.
+
     * Login/Sign In if you have a docker id or Sign Up if you do not have a docker id.
     * click "Start".
     * click "ADD NEW INSTANCE" to create a new virtual machine.
 
-    #Tip: 
-        - Maximize the terminal by clicking on it and pressing "alt" + "enter"
+#Tip: 
+    - Maximize the terminal by clicking on it and pressing "alt" + "enter"
 
 
 ## Contributing <a name="contributing"></a>
